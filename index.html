@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!-- Google Fonts -->
+    <!-- Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Lexend Deca -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS File -->
+    <link rel="stylesheet" href="main.css" />
+
+    <title>Frontend Mentor | Stats preview card component</title>
+  </head>
+  <body>
+    <main>
+      <article class="card">
+        <picture>
+          <source
+            media="(min-width: 768px)"
+            srcset="images/image-header-desktop.jpg"
+          />
+          <source
+            media="(min-width: 375px)"
+            srcset="images/image-header-mobile.jpg"
+          />
+          <img src="images/image-header-mobile.jpg" alt="team" />
+        </picture>
+        <div class="info">
+          <h1>Get <span>insights</span> that help your business grow.</h1>
+          <p>
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+          <div class="stats-box">
+            <div class="stats">
+              <p><span class="num" data-number="10">00</span>k+</p>
+              <p>companies</p>
+            </div>
+            <div class="stats">
+              <p><span class="num" data-number="314">000</span></p>
+              <p>templates</p>
+            </div>
+            <div class="stats">
+              <p><span class="num" data-number="12">00</span>m+</p>
+              <p>queries</p>
+            </div>
+          </div>
+        </div>
+      </article>
+      <footer class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a
+          class="author"
+          href="https://github.com/Muhammad-adam778"
+          target="_blank"
+          >Muhammad</a
+        >.
+      </footer>
+    </main>
+    <!-- Main JS file -->
+    <script src="main.js"></script>
+  </body>
+</html>
