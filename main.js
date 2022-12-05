@@ -7,8 +7,10 @@ let numbersArray = Array.from(numbersSpan);
 let counterStarted = false;
 
 // ##Events
-// Show Card
-statsCard.classList.add("show");
+window.onload = function () {
+  // Show Card
+  statsCard.classList.add("show");
+};
 
 // On Desktop Devices
 if (window.navigator.maxTouchPoints === 0) {
