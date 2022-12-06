@@ -1,5 +1,5 @@
 // Catch elements
-const numbersSpan = document.querySelectorAll(".stats p:first-child .num");
+const numbersSpan = document.querySelectorAll(".stats ul li:first-child .num");
 const statsCard = document.querySelector("article.card");
 
 // Variables
